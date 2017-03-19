@@ -839,7 +839,7 @@ LOCAL_FDO_SUPPORT := true
 
 
 ifeq ($(BOARD_USES_QCOM_HARDWARE),true)
-        LOCAL_WHOLE_STATIC_LIBRARIES += libqc-skia
+#        LOCAL_WHOLE_STATIC_LIBRARIES += libqc-skia
 endif
 
 LOCAL_EXPORT_C_INCLUDE_DIRS := \
